@@ -11,3 +11,5 @@ exports.spotify = {
   id: process.env.SPOTIFY_ID,
   secret: process.env.SPOTIFY_SECRET
 };
+
+// in my twitter application manager, I changed the website from my twitter handle name to http:// google.com, but for the callback URL, it remains my twitter handle website. 
