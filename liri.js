@@ -1,17 +1,18 @@
-// put require method into a variable to be easily called. 
-var dotEnv = require("dotenv").config();
-console.log(dotEnv);
 console.log("Hello");
+// put require method into a variable to be easily called. 
+require("dotenv").config();
 //Takes in all command line arguments
 var inputString = process.argv;
 // console.log("This is the dotEnv variable", dotEnv);
 
-var keys = require("./keys.js");
-console.log("This is keys info", keys);
+var keysFile = require("./keys.js");
+console.log("This is keys info", keysFile);
 
 // create variables to hold the API keys of Twitter and Spotify
-var spotify = new spotify(keys.spotify);
-var client = new twitter(keys.twitter);
+// var spotify = new Spotify(keys.Spotify);
+// console.log(spotify);
+var Twitter = require('twitter');
+var client = new Twitter(keysFile.Twitter);
 
 
 
