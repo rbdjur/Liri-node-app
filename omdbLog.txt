@@ -3,3 +3,12 @@ Title of Movie: The Incredibles
  IMDB Rating: 8.0Title of Movie: The Incredibles
  Year of Movie: 2004
  IMDB Rating: 8.0
+ Title of Movie: Training Day
+ Year of Movie: 2001
+ IMDB Rating: 7.7
+ Title of Movie: The Incredibles
+ Year of Movie: 2004
+ IMDB Rating: 8.0
+ Title of Movie: The Incredibles
+ Year of Movie: 2004
+ IMDB Rating: 8.0
